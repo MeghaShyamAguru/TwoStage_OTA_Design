@@ -1,7 +1,7 @@
 # Two-Stage Operational Transconductance Amplifier (OTA) Design
 
 ## Overview
-This repository contains the schematic, design calculations, and simulation results for a CMOS Two-Stage Operational Transconductance Amplifier (OTA). The circuit is implemented using the TSMC 0.18µm technology node (`tsmc018.lib`) and operates on a 1.8V single supply. 
+This repository contains the schematic, design calculations, and simulation results for a CMOS Two-Stage Operational Transconductance Amplifier (OTA). The circuit is implemented using the TSMC 180nm technology node (`tsmc018.lib`) and operates on a 1.8V single supply. 
 
 The amplifier features a differential input stage with an active current mirror load, followed by a common-source second stage. To ensure stability in a closed-loop configuration, the design employs Miller compensation with a nulling resistor to push the right-half-plane (RHP) zero to higher frequencies.
 
@@ -58,6 +58,3 @@ The reports detailing the mathematical derivations and simulation waveforms are 
 * `LTSpice Design file(2 stage OTA).asc`: The primary LTspice circuit schematic and simulation file.
 
 ---
-**Author:** Aguru Megha Shyam  
-**Roll Number:** 240102005  
-**Department:** Electronics and Communication Engineering (ECE), IIT Guwahati
